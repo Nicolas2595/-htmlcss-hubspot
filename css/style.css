@@ -155,8 +155,8 @@ p {
 }
 
 /*Main*/
-main {
-    height: 850px;
+.box-main1 {
+    height: 1100px;
     width: 100%;
     background-color: powderblue;
 }
@@ -178,7 +178,7 @@ main {
 .undersection1-main {
     width: 100%;
     float: none;
-    height: 100px;
+    height: 250px;
     margin-top: 20px;
     margin-bottom: 30px;
     background-color: white;
@@ -187,11 +187,19 @@ main {
 .undersection2-main,
 .undersection3-main,
 .undersection4-main {
-    height: 400px;
+    height: 450px;
     background-color: white;
     width: 31%;
 }
 
 .undersection3-main {
      margin: 0 30px;
+}
+
+/*Section3*/
+.section3-main {
+    height: 500px;
+    width: 100%;
+    background-color: #22c3b6;
+
 }
