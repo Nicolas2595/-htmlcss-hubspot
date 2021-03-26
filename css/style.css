@@ -23,12 +23,13 @@ body {
     margin: 0 auto;
 }
 
-.section1-header {
+/*Sezione Fixed*/
+.fixed {
     background-color: lightblue;
     border-bottom: 1px solid black;
     height: 70px;
     width: 100%;
-    position: fixed;  
+    /*position: fixed;*/
     top: 0;
 }
 
@@ -86,7 +87,6 @@ body {
     border-radius: 5px;
     text-decoration: none;
     background-color: coral;
-
 }
 
 .btn-white {
@@ -98,7 +98,6 @@ body {
     font-size: 13px;
     border-radius: 5px;
     text-decoration: none;
-
 }
 
 #a1 {
@@ -106,3 +105,58 @@ body {
     font-size: 10px;
 }
 
+/*Header*/
+.section1-header {
+    height: 70px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.header-logo {
+    width: 50%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.nav-right1 {
+    width: 50%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.jumbotron {
+    height: 600px;
+    width: 100%;
+    background-color: #fff3ee;
+    background-image: url('../immagini/jumbotron.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.btn-large {
+    padding: 15px;
+}
+
+.w50 {
+    width: 50%;
+    
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 13px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/*Main*/
+main {
+    height: 800px;
+    width: 100%;
+    background-color: powderblue;
+}
