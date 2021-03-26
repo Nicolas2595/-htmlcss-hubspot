@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section1-header {
+    background-color: lightblue;
+    border-bottom: 1px solid black;
+    height: 70px;
+    width: 100%;
+    position: fixed;  
+    top: 0;
+}
+
+.fixed-nav {
+    padding-top: 20px;
+}
+
+.list-inline {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.list-inline a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.nav-left{
+    width: 50%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.nav-right {
+    width: 50%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.list-inline1 {
+    list-style: none;
+}
+
+.list-inline1 > li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.list-inline1  a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: coral;
+
+}
+
+.btn-white {
+    background-color: cornsilk;
+    border: 1px solid coral;
+    color: coral;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+#a1 {
+    color: blue;
+    font-size: 10px;
+}
+
