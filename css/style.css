@@ -156,11 +156,12 @@ p {
 
 /*Main*/
 main {
-    height: 800px;
+    height: 850px;
     width: 100%;
     background-color: powderblue;
 }
 
+/*Section1*/
 .section1-main > img {
     height: 115px;
 }
@@ -170,6 +171,27 @@ main {
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 40px;
-
     text-align: center;
+}
+
+/*Section2*/
+.undersection1-main {
+    width: 100%;
+    float: none;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.undersection2-main,
+.undersection3-main,
+.undersection4-main {
+    height: 400px;
+    background-color: white;
+    width: 31%;
+}
+
+.undersection3-main {
+     margin: 0 30px;
 }
