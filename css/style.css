@@ -206,7 +206,7 @@ p {
 
 /*Section3*/
 .box-main2 {
-    height: 650px;
+    height: 700px;
     width: 100%;
     background-color: #22c3b6;
 }
@@ -230,4 +230,110 @@ h3 {
     height: 200px;
     background: white;
     width: calc(100% / 4 - 20px);
+}
+
+/*sezione4*/
+.section4-main {
+    height: 550px;
+    width: 100%;
+}
+
+.box1-section4-main {
+    margin-bottom: 70px;
+}
+
+.under1-box1-section4 {
+    height: 150px;
+    width: 20%;
+    background-color: yellow;
+    margin-right: 5%;
+}
+
+.under2-box1-section4 {
+    height: 150px;
+    width: 75%;
+    background-color: violet;
+
+}
+
+.under1-box2-section4 {
+    height: 250px;
+    width: 40%;
+    background-color: pink;
+    margin-right: 15%;
+}
+
+.under2-box2-section4 {
+    height: 220px;
+    width: 40%;
+    background-color: blue;
+}
+
+/*Footer*/
+.section-footer {
+    height: 500px;
+    width: 100%;
+    background-color: #32495b;
+}
+
+/*Section1 footer*/
+.undersection-footer {
+    margin: 10px;
+    height: 200px;
+    background: white;
+    width: calc(100% / 4 - 20px);
+    margin-top: 30px;
+}
+
+/*section2 footer*/
+.list-inline2 {
+    list-style: none;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+.list-inline2 > li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.list-inline2  a {
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+}
+
+.hr-footer {
+    color: white;
+}
+
+.footer-logo {
+    height: 50px;
+    background-color: red;
+    width: 50%;
+    margin-top: 40px;    
+}
+
+.nav-footer {
+    width: 50%;
+    height: 100%;    
+}
+
+.list-inline3 {
+    list-style: none;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.list-inline3 > li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.list-inline3  a {
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
 }
