@@ -100,7 +100,7 @@ body {
     text-decoration: none;
 }
 
-#a1 {
+#a-fixed {
     color: blue;
     font-size: 10px;
 }
@@ -190,16 +190,44 @@ p {
     height: 450px;
     background-color: white;
     width: 31%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .undersection3-main {
      margin: 0 30px;
 }
 
+.undersection1-main {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
 /*Section3*/
-.section3-main {
-    height: 500px;
+.box-main2 {
+    height: 650px;
     width: 100%;
     background-color: #22c3b6;
+}
 
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+#p-main {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.rettangle-main {
+    margin: 10px;
+    height: 200px;
+    background: white;
+    width: calc(100% / 4 - 20px);
 }
