@@ -266,7 +266,8 @@ p {
 .undersection2-main > img {
     height: 85px;
     width: auto;
-    padding-left: 110px;
+    padding-left: 100px;
+    margin-top: 20px;
 }
 
 .undersection2-main > a {
@@ -277,7 +278,8 @@ p {
 .undersection3-main > img {
     height: 85px;
     width: auto;
-    padding-left: 110px;
+    padding-left: 85px;
+    margin-top: 20px;
 }
 
 .undersection3-main > a {
@@ -288,7 +290,8 @@ p {
 .undersection4-main > img {
     height: 85px;
     width: auto;
-    padding-left: 110px;
+    padding-left: 100px;
+    margin-top: 20px;
 }
 
 .undersection4-main > a {
@@ -317,7 +320,7 @@ p {
 
 /*Section3*/
 .box-main2 {
-    height: 700px;
+    height: 600px;
     width: 100%;
     background-color: #22c3b6;
 }
@@ -337,10 +340,10 @@ p {
 }
 
 .rettangle-main {
-    margin: 10px;
-    height: 200px;
-    background: white;
-    width: calc(100% / 4 - 20px);
+    height: 175px;
+    background: red;
+    border: 1px solid white;
+    width: calc(100% / 4);
 }
 
 /*sezione4*/
@@ -356,9 +359,31 @@ p {
 .under1-box1-section4 {
     height: 150px;
     width: 20%;
-    background-color: yellow;
     margin-right: 5%;
 }
+
+.container3 {
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 40px;
+}
+
+#h2-section4 {
+    font-size: 35px;
+}
+
+#h4-section4 {
+    font-size: 25px;
+}
+
+#p-section4 {
+    font-size: 10px;
+}
+
+#p-100 {
+    font-size: 16px;
+}
+
 
 .under2-box1-section4 {
     height: 150px;
@@ -367,17 +392,27 @@ p {
 
 }
 
+.under2-box1-section4 > img {
+    height: 75px;
+    width: 120px;
+    
+}
+
 .under1-box2-section4 {
     height: 250px;
     width: 40%;
-    background-color: pink;
     margin-right: 15%;
 }
 
 .under2-box2-section4 {
-    height: 220px;
+    /*height: 240px;*/
     width: 40%;
-    background-color: blue;
+}
+
+.under2-box2-section4 > img {
+    height: 250px;
+    width: 60%;
+    margin-left: 160px;
 }
 
 /*Footer*/
@@ -391,7 +426,6 @@ p {
 .undersection-footer {
     margin: 10px;
     height: 200px;
-    background: white;
     width: calc(100% / 4 - 20px);
     margin-top: 30px;
 }
@@ -447,4 +481,32 @@ p {
     text-decoration: none;
     font-size: 11px;
     color: white;
+}
+
+h6 {
+    color: white;
+    font-size: 13px;
+
+}
+
+.list-inline4 {
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.list-inline4 > li {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.btn-footer {
+    padding: 5px 10px;
+    font-size: 11px;
+    color: #32495b;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+
 }
