@@ -184,6 +184,75 @@ p {
     background-color: white;
 }
 
+.circle {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+}
+
+.circle1 {
+    margin-left: 10px;
+}
+
+.circle-undersection-main {
+    height: 10px;
+    width: 10px;
+    font-size: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: coral;
+    color: white;
+    text-align: left;
+}
+
+.free-hubspot {
+    width: 50%;
+    height: 100%;
+    margin-right: 70px;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+#hr-inline {
+    display: inline-block;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.li-main {
+    list-style: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.li-main2 {
+    list-style: none;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.p-main {
+    font-size: 11px;
+}
+
+.main-logo {
+    height: 100%;
+    width: 20%;
+    margin-left: 70px;
+    padding: 40px;
+}
+
+.main-logo > img {
+    height: 85px;
+    width: auto;
+}
+
 .undersection2-main,
 .undersection3-main,
 .undersection4-main {
@@ -192,6 +261,48 @@ p {
     width: 31%;
     border-radius: 5px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.undersection2-main > img {
+    height: 85px;
+    width: auto;
+    padding-left: 110px;
+}
+
+.undersection2-main > a {
+    margin-left: 85px;
+    margin-top: 40px;
+}
+
+.undersection3-main > img {
+    height: 85px;
+    width: auto;
+    padding-left: 110px;
+}
+
+.undersection3-main > a {
+    margin-left: 85px;
+    margin-top: 40px;
+}
+
+.undersection4-main > img {
+    height: 85px;
+    width: auto;
+    padding-left: 110px;
+}
+
+.undersection4-main > a {
+    margin-left: 85px;
+    margin-top: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.h4-main {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .undersection3-main {
@@ -211,7 +322,7 @@ p {
     background-color: #22c3b6;
 }
 
-h3 {
+.h3-section3 {
     color: white;
     text-align: center;
     font-size: 25px;
@@ -304,7 +415,7 @@ h3 {
     color: white;
 }
 
-.hr-footer {
+.hr-white {
     color: white;
 }
 
