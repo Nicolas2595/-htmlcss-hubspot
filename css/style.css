@@ -29,7 +29,7 @@ body {
     border-bottom: 1px solid black;
     height: 70px;
     width: 100%;
-    /*position: fixed;*/
+    position: fixed;
     top: 0;
 }
 
@@ -107,9 +107,10 @@ body {
 
 /*Header*/
 .section1-header {
-    height: 70px;
+    /*height: 70px;*/
     width: 100%;
-    padding-top: 20px;
+    padding-top: 90px;
+    padding-bottom: 15px;
 }
 
 .header-logo {
@@ -341,7 +342,6 @@ p {
 
 .rettangle-main {
     height: 175px;
-    background: red;
     border: 1px solid white;
     width: calc(100% / 4);
 }
