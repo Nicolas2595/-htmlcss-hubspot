@@ -346,6 +346,36 @@ p {
     width: calc(100% / 4);
 }
 
+.h2-main {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.rettangle-main > img {
+    height: 25px;
+    width: 85px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.border-bottom-0 {
+    border-bottom: none;
+}
+
+.border-top-0 {
+    border-top: none;
+}
+
+.border-left-0 {
+    border-left: none;
+}
+
+.border-right-0 {
+    border-right: none;
+}
+
 /*sezione4*/
 .section4-main {
     height: 550px;
